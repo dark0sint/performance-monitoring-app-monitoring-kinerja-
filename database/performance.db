@@ -1,0 +1,12 @@
+CREATE TABLE employees (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    unit TEXT,
+    productivity REAL
+);
+
+INSERT INTO employees (name, unit, productivity) VALUES
+('Pegawai A', 'Unit 1', 85.5),
+('Pegawai B', 'Unit 1', 90.0),
+('Pegawai C', 'Unit 2', 78.2),
+('Pegawai D', 'Unit 2', 88.5);
